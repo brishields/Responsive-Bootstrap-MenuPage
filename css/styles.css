@@ -1,0 +1,32 @@
+header {
+  background-color: gray;
+  font: sans-serif;
+  text-align: center;
+  /* height: 70px; */
+  padding-left: 20px;
+  /* margin: auto; */
+  border: 1px solid black;
+  position: relative;
+}
+.navbar .navbar-default {
+  position: relative;
+}
+.navbar-header {
+  position: absolute;
+  float: right;
+}
+h1{
+  text-align: left;
+}
+h2 {
+  text-align: center;
+}
+div section {
+  background-color: gray;
+  margin: 15px;
+}
+h3 {
+  margin: auto;
+  text-align: center;
+}
+@media ()
