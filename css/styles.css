@@ -23,10 +23,12 @@ h2 {
 }
 div section {
   background-color: gray;
-  margin: 15px;
+  margin-bottom: 20px; 
 }
 h3 {
   margin: auto;
   text-align: center;
 }
-@media ()
+section {
+  padding: 25px;
+}
