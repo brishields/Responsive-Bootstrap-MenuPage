@@ -13,20 +13,26 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-default" id="top">
-        <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-          <a class="navbar-brand" href="#">
-            <h1>Food, LLC</h1>
-          </a>
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            </button>
-          </div>
+      <nav class="navbar navbar-default" id="header-nav">
+         
+         <div class="container-fluid">
+         <h1 class="navbar-brand pull-left">Food, LLC</h1>
+        
+             
+             <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsable-nav" aria-controls="collapsable-nav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+            
+       <div id="collapsable-nav" class=" collapse navbar-collapse">
+         <ul id="nav-list" class="nav navbar-nav navbar-right">
+           <li><a href="#chicken-tile">Chicken</a></li>
+           <li><a href="#beef-tile">Beef</a></li>
+           <li><a href="#sushi-tile">Sushi</a></li>
+         </ul>
+                 </div>
+            
+        
         </div>
         </nav>
     </header>
@@ -66,7 +72,7 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat libero eu elit lacinia feugiat. Proin nibh nibh, tristique ac sollicitudin ut, blandit ac sem. Integer et justo vel metus facilisis scelerisque ac eget ligula. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam et sem interdum, hendrerit neque ac, aliquam est. Phasellus imperdiet nisi purus, facilisis convallis dui eleifend id. Etiam tincidunt vehicula quam, quis gravida velit bibendum a.
           </P>
             <span> (End of Sushi)
-              <a href="#top">Back To Top</a>
+              <a href="#header-nav">Back To Top</a>
             </span>
           </section>
         </div><!--End Sushi-->
