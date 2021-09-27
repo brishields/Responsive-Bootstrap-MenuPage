@@ -3,41 +3,39 @@
   <head>
    <meta charset="utf-8">
 <!-- Latest compiled and minified CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
 
 <!-- Latest compiled JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="css/styles.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Menu</title>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+   <link rel="stylesheet" href="css/styles.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Responsive Menu</title>
   </head>
   <body>
+  
     <header>
-      <nav class="navbar navbar-default" id="header-nav">
-         
-         <div class="container-fluid">
-         <h1 class="navbar-brand pull-left">Food, LLC</h1>
-        
-             
-             <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsable-nav" aria-controls="collapsable-nav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
+      <nav class="navbar navbar-default navbar-light" id="header-nav">
+        <div class="container-fluid">
+        <h1 class="navbar-brand pull-left">Food, LLC</h1>
+        <button class="navbar-toggler collapsed d-block d-sm-none d-md-none d-lg-none d-xl-none btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapsable-nav" aria-controls="collapsable-nav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
             
-       <div id="collapsable-nav" class=" collapse navbar-collapse">
+       <div id="collapsable-nav" class="collapse navbar-collapse">
          <ul id="nav-list" class="nav navbar-nav navbar-right">
            <li><a href="#chicken-tile">Chicken</a></li>
            <li><a href="#beef-tile">Beef</a></li>
            <li><a href="#sushi-tile">Sushi</a></li>
          </ul>
-                 </div>
-            
-        
-        </div>
+       </div><!--End Collapsable Nav list-->
+       
+        </div> <!--End Container div-->
         </nav>
     </header>
     
-    <h2>Our Menu</h2>
+    <div class="headliner align-middle">
+    <h2 class="align-middle">Our Menu</h2>
+    </div>
     
     <div class="container-fluid">
       <div class="row">
@@ -54,7 +52,7 @@
         </div><!--End Chicken-->
         
         <div class="col-12 col-sm-6 col-md-4" id="beef-tile">
-               <section>
+          <section>
             <h3>Beef</h3>
             <P>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat libero eu elit lacinia feugiat. Proin nibh nibh, tristique ac sollicitudin ut, blandit ac sem. Integer et justo vel metus facilisis scelerisque ac eget ligula. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam et sem interdum, hendrerit neque ac, aliquam est. Phasellus imperdiet nisi purus, facilisis convallis dui eleifend id. Etiam tincidunt vehicula quam, quis gravida velit bibendum a.
@@ -65,22 +63,19 @@
           </section>
         </div><!--End Beef-->
         
-        <div class="col-12 col-sm-12 col-md-4"id="sushi-tile"> 
-      <section>
-            <h3>Sushi</h3>
-            <P>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat libero eu elit lacinia feugiat. Proin nibh nibh, tristique ac sollicitudin ut, blandit ac sem. Integer et justo vel metus facilisis scelerisque ac eget ligula. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam et sem interdum, hendrerit neque ac, aliquam est. Phasellus imperdiet nisi purus, facilisis convallis dui eleifend id. Etiam tincidunt vehicula quam, quis gravida velit bibendum a.
-          </P>
-            <span> (End of Sushi)
-              <a href="#header-nav">Back To Top</a>
-            </span>
-          </section>
-        </div><!--End Sushi-->
+         <div class="col-12 col-sm-12 col-md-4"id="sushi-tile"> 
+           <section>
+             <h3>Sushi</h3>
+             <P>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat libero eu elit lacinia feugiat. Proin nibh nibh, tristique ac sollicitudin ut, blandit ac sem. Integer et justo vel metus facilisis scelerisque ac eget ligula. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam et sem interdum, hendrerit neque ac, aliquam est. Phasellus imperdiet nisi purus, facilisis convallis dui eleifend id. Etiam tincidunt vehicula quam, quis gravida velit bibendum a.
+</P>
+             <span> (End of Sushi)
+               <a href="#header-nav">Back To Top</a>
+             </span>
+           </section>
+         </div><!--End Sushi-->
         
       </div> <!--End Row-->
       </div>
   </body>
-  
-  
-  
-  </html>
+ </html>
